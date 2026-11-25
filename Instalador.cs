@@ -123,7 +123,7 @@ namespace AacTr
             if (c.languages == null) c.languages = new List<LangInfo>();
             if (c.languages.Count == 0)
             {
-                foreach (var p in new[] { "es:es-ES", "fr:fr-FR", "de:de-DE", "it:it-IT", "pl:pl-PL", "en:en" })
+                foreach (var p in new[] { "es:es-ES", "fr:fr-FR", "de:de-DE", "it:it-IT", "en:en" })
                     c.languages.Add(new LangInfo { code = p.Split(':')[0], culture = p.Split(':')[1], status = p.StartsWith("en:") ? "original" : "coming" });
             }
             return c;
@@ -142,7 +142,7 @@ namespace AacTr
     static class T
     {
         public static string Lang = "en";
-        public static readonly string[] Order = { "es", "en", "fr", "de", "it", "pl" };
+        public static readonly string[] Order = { "es", "en", "fr", "de", "it" };
         public static readonly string[] Native = { "Espa\u00f1ol", "English", "Fran\u00e7ais", "Deutsch", "Italiano", "Polski" };
         static Dictionary<string, string[]> S = new Dictionary<string, string[]>();
 
@@ -454,7 +454,7 @@ namespace AacTr
             Controls.Add(lblTitle); Controls.Add(lblChoose);
 
             // Orden de las tarjetas: espanol, frances, aleman, italiano, polaco y, al final, ingles (original).
-            var order = new[] { "es", "fr", "de", "it", "pl", "en" };
+            var order = new[] { "es", "fr", "de", "it", "en" };
             tiles = new LangTile[order.Length];
             for (int i = 0; i < order.Length; i++)
             {
