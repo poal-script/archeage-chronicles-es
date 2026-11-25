@@ -11,7 +11,7 @@ One installer, one language selector with flags. Open it, pick your language and
 | Language | Status |
 |---|---|
 | 🇪🇸 Español | ✅ Available (54,000+ texts) |
-| 🇫🇷 Français | ✅ Available (first version, 100% of translatable texts) |
+| 🇫🇷 Français | ✅ Available (first version, 80% of translatable texts) |
 | 🇩🇪 Deutsch | 🛠 In preparation |
 | 🇮🇹 Italiano | 🛠 In preparation |
 | 🇵🇱 Polski | 🛠 In preparation |
