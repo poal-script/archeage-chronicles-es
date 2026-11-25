@@ -1,0 +1,48 @@
+{
+    "installerVersion": "2.0.0",
+    "installer": "AAC-Traducciones.exe",
+    "languages": [
+        {
+            "code": "es",
+            "culture": "es-ES",
+            "status": "complete",
+            "coverage": 100,
+            "version": "1.2.0",
+            "build": "26803662",
+            "locres": "String.es.locres",
+            "sha256": "48b1884b4e8c292cc6f05928b62908f84e8d82d98a969275cf955c8a82663629",
+            "notes": ""
+        },
+        {
+            "code": "fr",
+            "culture": "fr-FR",
+            "status": "complete",
+            "coverage": 100,
+            "version": "1.0.1",
+            "build": "26803662",
+            "locres": "String.fr.locres",
+            "sha256": "a03bc96bbb7e7f938dde96e31c0d935bc378ff7409a126dfa55eff72677114a3",
+            "notes": "Textes coreens visibles traduits en francais. Particules hpp du moteur conservees."
+        },
+        {
+            "code": "de",
+            "culture": "de-DE",
+            "status": "coming"
+        },
+        {
+            "code": "it",
+            "culture": "it-IT",
+            "status": "coming"
+        },
+        {
+            "code": "pl",
+            "culture": "pl-PL",
+            "status": "coming"
+        },
+        {
+            "code": "en",
+            "culture": "en",
+            "status": "original"
+        }
+    ]
+}
