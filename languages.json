@@ -1,5 +1,5 @@
 {
-    "installerVersion":  "2.0.1",
+    "installerVersion":  "2.0.2",
     "installer":  "AAC-Traducciones.exe",
     "languages":  [
                       {
@@ -27,7 +27,13 @@
                       {
                           "code":  "de",
                           "culture":  "de-DE",
-                          "status":  "coming"
+                          "status":  "complete",
+                          "coverage":  100,
+                          "version":  "1.0.0",
+                          "build":  "26803662",
+                          "locres":  "String.de.locres",
+                          "sha256":  "2f8a1f6a59306f33f76b3ddacb0ebb510ac44ca9e6e900fe8e876dd7f6bad59e",
+                          "notes":  "Traduccion al aleman; incluye los textos que venian solo en coreano."
                       },
                       {
                           "code":  "it",

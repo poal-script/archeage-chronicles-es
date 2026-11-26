@@ -2,7 +2,7 @@
 
 # ArcheAge Chronicles — Fan translations / Traducciones / Traductions
 
-**🇪🇸 [Español](#español) · 🇫🇷 [Français](#français) · 🇩🇪 [Deutsch](#deutsch) · 🇮🇹 [Italiano](#italiano) · 🇵🇱 [Polski](#polski) · 🇬🇧 [English](#english)**
+**🇪🇸 [Español](#español) · 🇫🇷 [Français](#français) · 🇩🇪 [Deutsch](#deutsch) · 🇮🇹 [Italiano](#italiano) · 🇬🇧 [English](#english)**
 
 **[⬇ Download / Descargar / Télécharger](https://github.com/poal-script/archeage-chronicles-es/releases/latest)** → `AAC-Traducciones.exe`
 
@@ -11,12 +11,11 @@ One installer, one language selector with flags. Open it, pick your language and
 | Language | Status |
 |---|---|
 | 🇪🇸 Español | ✅ Available (54,000+ texts) |
-| 🇫🇷 Français | ✅ Available (first version, 100% of translatable texts) |
-| 🇩🇪 Deutsch | 🛠 In preparation |
+| 🇫🇷 Français | ✅ Available |
+| 🇩🇪 Deutsch | ✅ Available |
 | 🇮🇹 Italiano | 🛠 In preparation |
-| 🇵🇱 Polski | 🛠 In preparation |
 
-Want to help with French, German, Italian or Polish? Open an [issue](https://github.com/poal-script/archeage-chronicles-es/issues) and tell us which language.
+Want to help with Italian? Open an [issue](https://github.com/poal-script/archeage-chronicles-es/issues) and tell us which language.
 
 ---
 
@@ -27,7 +26,7 @@ Unofficial fan translations of **ArcheAge Chronicles**: interface, quests, dialo
 1. Download `AAC-Traducciones.exe` from the [latest release](https://github.com/poal-script/archeage-chronicles-es/releases/latest).
 2. Close the game and its launcher.
 3. Run the installer (it asks for administrator rights because it writes to the Steam game folder), **choose your language** and press **Install / Update**.
-4. Start the game from Steam. If it is still in English: Steam → ArcheAge Chronicles → Properties → Launch options → `-culture=es-ES` (use `fr-FR`, `de-DE`, `it-IT` or `pl-PL` for the other languages).
+4. Start the game from Steam. If it is still in English: Steam → ArcheAge Chronicles → Properties → Launch options → `-culture=es-ES` (use `fr-FR`, `de-DE` or `it-IT` for the other languages).
 
 To go back to English press **Back to English**. Translation files stay installed so you can switch again at any time.
 
@@ -51,7 +50,7 @@ Traductions de fans d'**ArcheAge Chronicles** : interface, quêtes, dialogues, o
 3. Lancez l'installateur (il demande les droits d'administrateur car il écrit dans le dossier Steam du jeu), **choisissez votre langue** et cliquez sur **Installer / Mettre à jour**.
 4. Lancez le jeu depuis Steam. S'il reste en anglais : Steam → ArcheAge Chronicles → Propriétés → Options de lancement → `-culture=fr-FR`.
 
-La traduction française est **disponible** (première version : si tu vois un souci, ouvre un « issue » avec une capture). Pour revenir à l'anglais, cliquez sur **Revenir à l'anglais**.
+La traduction française est **disponible**. Pour revenir à l'anglais, cliquez sur **Revenir à l'anglais**.
 
 ## Deutsch
 
@@ -62,7 +61,7 @@ Inoffizielle Fan-Übersetzungen für **ArcheAge Chronicles**: Oberfläche, Quest
 3. Starte das Installationsprogramm (es braucht Administratorrechte, weil es in den Steam-Spielordner schreibt), **wähle deine Sprache** und klicke auf **Installieren / Aktualisieren**.
 4. Starte das Spiel über Steam. Falls es auf Englisch bleibt: Steam → ArcheAge Chronicles → Eigenschaften → Startoptionen → `-culture=de-DE`.
 
-Die deutsche Übersetzung ist **in Vorbereitung** („Demnächst“ im Installationsprogramm). Mit **Zurück zu Englisch** wechselst du zurück.
+Die deutsche Übersetzung ist **verfügbar**. Mit **Zurück zu Englisch** wechselst du zurück.
 
 ## Italiano
 
@@ -75,22 +74,9 @@ Traduzioni non ufficiali di **ArcheAge Chronicles** realizzate dai fan: interfac
 
 La traduzione italiana è **in preparazione** (nel programma compare «In arrivo»). Per tornare all'inglese premi **Torna all'inglese**.
 
-## Polski
-
-Nieoficjalne tłumaczenia fanów **ArcheAge Chronicles**: interfejs, zadania, dialogi, przedmioty, umiejętności i opisy. Głosy się nie zmieniają.
-
-1. Pobierz `AAC-Traducciones.exe` z [najnowszego wydania](https://github.com/poal-script/archeage-chronicles-es/releases/latest).
-2. Zamknij grę i jej launcher.
-3. Uruchom instalator (wymaga praw administratora, bo zapisuje w folderze gry Steam), **wybierz swój język** i naciśnij **Zainstaluj / Zaktualizuj**.
-4. Uruchom grę ze Steam. Jeśli nadal jest po angielsku: Steam → ArcheAge Chronicles → Właściwości → Opcje uruchamiania → `-culture=pl-PL`.
-
-Polskie tłumaczenie jest **w przygotowaniu** (w instalatorze widnieje „Wkrótce”). Aby wrócić do angielskiego, naciśnij **Wróć do angielskiego**.
-
----
-
 ## What the installer does / Qué hace / Ce que fait l'installateur
 
-- Copies `String.locres` to `X5\Content\Localization\String\<culture>\` inside the game folder (`es-ES`, `fr-FR`, `de-DE`, `it-IT`, `pl-PL`).
+- Copies `String.locres` to `X5\Content\Localization\String\<culture>\` inside the game folder (`es-ES`, `fr-FR`, `de-DE`, `it-IT`).
 - Sets `Culture=<culture>` in `%LOCALAPPDATA%\X5\Saved\Config\Windows\GameUserSettings.ini` (keeps a copy first: `GameUserSettings.ini.antes-de-traduccion`).
 - **Does not modify** the `.pak` files or the game executable.
 - Checks the integrity (SHA-256) of everything it installs or downloads.
