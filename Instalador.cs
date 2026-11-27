@@ -629,7 +629,12 @@ namespace AacTr
                         bool dummy; var b = Best(sel, out dummy);
                         var parts = new List<string>();
                         if (b != null && sel != "en") parts.Add(T.F("latest", Ver(b)));
-                        if (msgKey != null) parts.Add(T.F("new_installer", c.installerVersion, Config.RELEASES_URL));
+                        if (msgKey != null)
+                        {
+                            parts.Add(T.F("new_installer", c.installerVersion, Config.RELEASES_URL));
+                            // Con "Buscar actualizacion" se abre directamente la pagina de descarga.
+                            if (verbose) { try { Process.Start(Config.RELEASES_URL); } catch { } }
+                        }
                         SetStatus(parts.Count == 0 ? null : string.Join("\n", parts.ToArray()));
                         Apply();
                     });
